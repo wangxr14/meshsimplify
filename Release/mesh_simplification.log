@@ -1,0 +1,31 @@
+﻿Build started 2016/6/23 12:42:20.
+     1>Project "D:\Graphics\mesh_simplification\mesh_simplification\mesh_simplification.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MeshSimplifier.cpp main.cpp
+         MeshSimplifier.cpp
+     1>MeshSimplifier.cpp(89): warning C4018: '<' : signed/unsigned mismatch
+     1>MeshSimplifier.cpp(102): warning C4018: '<' : signed/unsigned mismatch
+     1>MeshSimplifier.cpp(116): warning C4018: '<' : signed/unsigned mismatch
+     1>MeshSimplifier.cpp(128): warning C4018: '<' : signed/unsigned mismatch
+     1>MeshSimplifier.cpp(227): warning C4018: '<' : signed/unsigned mismatch
+     1>MeshSimplifier.cpp(295): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+     1>main.cpp(17): warning C4101: 'end' : unreferenced local variable
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Graphics\mesh_simplification\Release\mesh_simplification.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Graphics\mesh_simplification\Release\mesh_simplification.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Graphics\mesh_simplification\Release\mesh_simplification.lib" /MACHINE:X86 /SAFESEH Release\Edge.obj
+         Release\Face.obj
+         Release\Heap.obj
+         Release\main.obj
+         Release\Matrix4.obj
+         Release\MeshSimplifier.obj
+         Release\Vector3.obj
+         Release\Vector4.obj
+         Release\vertex.obj
+         Generating code
+         Finished generating code
+         mesh_simplification.vcxproj -> D:\Graphics\mesh_simplification\Release\mesh_simplification.exe
+     1>Done Building Project "D:\Graphics\mesh_simplification\mesh_simplification\mesh_simplification.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.70

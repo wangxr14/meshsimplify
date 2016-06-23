@@ -1,0 +1,30 @@
+﻿Build started 2016/6/16 11:06:20.
+     1>Project "D:\Graphics\mesh_simplification\mesh_simplification\mesh_simplification.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MeshSimplifier.cpp main.cpp
+         main.cpp
+     1>d:\graphics\mesh_simplification\mesh_simplification\main.cpp(17): warning C4101: 'end' : unreferenced local variable
+         MeshSimplifier.cpp
+     1>d:\graphics\mesh_simplification\mesh_simplification\meshsimplifier.cpp(89): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\graphics\mesh_simplification\mesh_simplification\meshsimplifier.cpp(102): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\graphics\mesh_simplification\mesh_simplification\meshsimplifier.cpp(116): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\graphics\mesh_simplification\mesh_simplification\meshsimplifier.cpp(128): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\graphics\mesh_simplification\mesh_simplification\meshsimplifier.cpp(227): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\graphics\mesh_simplification\mesh_simplification\meshsimplifier.cpp(295): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Graphics\mesh_simplification\Debug\mesh_simplification.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Graphics\mesh_simplification\Debug\mesh_simplification.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Graphics\mesh_simplification\Debug\mesh_simplification.lib" /MACHINE:X86 Debug\Edge.obj
+         Debug\Face.obj
+         Debug\Heap.obj
+         Debug\main.obj
+         Debug\Matrix4.obj
+         Debug\MeshSimplifier.obj
+         Debug\Vector3.obj
+         Debug\Vector4.obj
+         Debug\vertex.obj
+         mesh_simplification.vcxproj -> D:\Graphics\mesh_simplification\Debug\mesh_simplification.exe
+     1>Done Building Project "D:\Graphics\mesh_simplification\mesh_simplification\mesh_simplification.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.26
